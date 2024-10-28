@@ -8,6 +8,10 @@ It uses this template code:
 
 <https://github.com/sbryngelson/academic-website-template>
 
+# Step 0: Create a GitHub account
+
+Create a GitHub account at <https://github.com/>.
+
 
 # Step 1: Copy the template to your own GitHub account
 
@@ -19,11 +23,19 @@ Go to
 
 and click the "Use this template" button and choose the 'Create a new repository' option.
 
+If you want instead to use my site as a template, you can go to
+
+<https://github.com/DanielEWeeks/Daniel_E_Weeks>
+
+The code there generates this web site:
+
+<https://danieleweeks.github.io/Daniel_E_Weeks/>
+
 
 # Step 2: Customize the information
 
-To customize it with my own information, I had to modify these files and update some image
-files:
+To customize it with my own information, I had to modify these files and update some image files.  Initially I changed these, but yet more modifications will be
+needed to fully customize it:
 
 ```	 
    _config.yml
