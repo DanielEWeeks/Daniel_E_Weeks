@@ -1,17 +1,18 @@
-- name: Dr. Richard Feynman
+- name: Daniel E. Weeks
   photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+  info: Daniel E. Weeks, Professor, University of Pittsburgh
+  email: weeks@pitt.edu
+  github: https://github.com/DanielEWeeks
+  # researchgate: https://www.researchgate.net/
+  scholar: https://scholar.google.com/citations?sortby=pubdate&hl=en&user=oA712DgAAAAJ
   cv: cv/cv.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "(1942) Ph.D. Physics, Princeton University",
-      "(1939) B.S. Physics, Massachusetts Institute of Technology",
+      "(1988) Ph.D., Biomathematics, University of California, Los Angeles",
+      "(1985) M.S. Biomathematics, University of California, Los Angeles",
+      "(1983) B.A. summa cum laude, Biology and Mathematics, Colby College",
     ]
 
   educationshort:
-    ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
+    ["(1988) Ph.D. Biomathematics, UCLA", "(1985) M.S. Biomathematics, UCLA","(1983) B.A. Biology and Mathematics, Colby"]
