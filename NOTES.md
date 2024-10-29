@@ -49,6 +49,23 @@ needed to fully customize it:
 To add my cv, I made a 'cv' folder, and then copied a PDF of my CV into that folder.  I then edited the 'cv' line in _data/pi.yml as needed.
 
 In _config.yml I turned off some of the pages, like the blog, by putting a hash # sign in front of the line listing them.  I also rearranged the order of the pages.
+
+To customize the listed software, I edited _pages/software.md 
+
+**Customizing References**
+
+Generated a BibTex-formatted set of references from my Zotero database, and pasted them into the assets/ref.bib file.
+
+If the LaTeX tag for the article contains a dash '-' in it, then the BIB and ABSTRACT pop-ups do not work. To get those to work, I had to remove the tags.
+
+For example, this does not work
+
+@article{treble-barna_brain-derived_2023
+
+but this works
+
+@article{treblebarna_brainderived_2023
+
   
 # Step 3: Turn on the GitHub Action
 
@@ -78,16 +95,3 @@ My generated web site is here:
 
 For the link icons, this uses Font Awesome version 4.2.0.
 
-# References
-
-Generated a BibTex-formatted set of references from my Zotero database, and pasted them into assets/ref.bib
-
-If the LaTeX tag for the article contains a dash '-' in it, then the BIB and ABSTRACT pop-ups do not work. To get those to work, I had to remove the tags.
-
-For example, this does not work
-
-@article{treble-barna_brain-derived_2023
-
-but this works
-
-@article{treblebarna_brainderived_2023
