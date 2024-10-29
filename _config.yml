@@ -12,8 +12,9 @@ url: ""
 
 # Footer info
 affiliation: >
-  Daniel E. Weeks<br/>
+  Daniel E. Weeks, Ph.D.<br/>
   Department of Human Genetics<br/>
+  School of Public Health<br/>
   University of Pittsburgh
 
 location: >
@@ -28,13 +29,13 @@ contact: >
 # Pages shown in navbar
 nav_pages:
   - name: about
-  - name: publications
-  - name: talks
-  - name: research
-  - name: software
   - name: team
   - name: teaching
-  - name: blogs
+  - name: publications
+# - name: talks
+# - name: research
+  - name: software
+# - name: blogs
 
 include:
   - .htaccess

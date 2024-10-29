@@ -8,7 +8,7 @@ permalink: /
 ### Welcome!
 
 I am a Professor of Human Genetics, with a joint appointment in the Department of Biostatistics
-and Health Data Science.  My research interests include: Statistical genetics, genetics of complex disease, epigenetics. Areas of application include adiposity, recovery from brain injury, breast cancer.
+and Health Data Science.  My research interests include statistical genetics, genetics of complex disease, epigenetics. Areas of application include adiposity, recovery from brain injury, breast cancer.
 
 <div class="container">
 <div class="row">

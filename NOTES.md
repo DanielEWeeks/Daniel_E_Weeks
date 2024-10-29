@@ -45,6 +45,10 @@ needed to fully customize it:
    images/DanWeeks_WordCloud.png
    images/headshot.jpg
 ```
+
+To add my cv, I made a 'cv' folder, and then copied a PDF of my CV into that folder.  I then edited the 'cv' line in _data/pi.yml as needed.
+
+In _config.yml I turned off some of the pages, like the blog, by putting a hash # sign in front of the line listing them.  I also rearranged the order of the pages.
   
 # Step 3: Turn on the GitHub Action
 
