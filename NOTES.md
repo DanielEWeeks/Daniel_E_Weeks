@@ -37,10 +37,12 @@ needed to fully customize it:
    _config.yml
    _data/funders.yml
    _data/pi.yml
+   _data/news.yml
    _pages/home.md
    images/DanWeeks_WordCloud.png
    images/headshot.jpg
    _pages/teaching.md
+   _pages/publications.md 
 ```
 
 Note that the *.yml and *.md files are text files that can be edited online in the GitHub.com website.  The image files can be also added into the appropriate folder in the online interface. 
@@ -106,6 +108,12 @@ _pages/team.md
 After these adjustments, then changing the ORCiD link only requires you adjust the 'orcid' line in _data/pi.yml:  
 
 orcid: https://orcid.org/0000-0001-9410-7228
+
+**Customizing favicon.ico**
+
+I put my own favicon.ico in the root directory - this is the little icon that appears in the upper right of the web page.
+
+Pitt has University of Pittsburgh favicon.ico files, but we are only permitted to use them on web sites that end in *.pitt.edu.  
 
   
 # Step 3: Turn on the GitHub Action
