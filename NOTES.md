@@ -30,6 +30,10 @@ The code there generates this web site:
 
 # Step 2: Customize the information
 
+The majority of the customization can be done by editing *.yml and *.md text files, and by copying desired image files into the 'images' folder, copying an updated CV into the 'cv' folder, etc.   
+
+However, some of the customizations required using some HTML (For example, see the Syllabus button links in _pages/teaching.md or the publication search links at the start of _pages/publications.md).  Some of these links were copied from my Department of Human Genetics faculty page. 
+
 To customize it with my own information, I had to modify these files and update some image files.  Initially I changed these, but yet more modifications may be
 needed to fully customize it:
 
@@ -49,11 +53,11 @@ Note that the *.yml and *.md files are text files that can be edited online in t
 
 To add my cv, I made a 'cv' folder, and then copied a PDF of my CV into that folder.  I then edited the 'cv' line in _data/pi.yml as needed.
 
-In _config.yml I turned off some of the pages, like the blog, by putting a hash # sign in front of the line listing them.  I also rearranged the order of the pages.
-
 To customize the listed software, I edited _pages/software.md 
 
-**Turned off pages**
+**Turned off pages and adjusted page order**
+
+In _config.yml I turned off some of the pages, like the blog, by putting a hash # sign in front of the line listing them.  I also rearranged the order of the pages.
 
 Note that I edited the _config.yml to turn off these three pages:
 
