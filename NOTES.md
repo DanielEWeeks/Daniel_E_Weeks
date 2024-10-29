@@ -78,6 +78,17 @@ but this works
 @article{treblebarna_brainderived_2023
 
 
+As I don't have many conference proceedings, I deleted this
+
+```
+<div class="jumbotron">
+### Refereed conference proceedings
+{% bibliography --query @inproceedings %}
+</div>
+```
+
+from _pages/publications.md 
+
 **Customizing Academic Icons**
 
 To add an ORCiD academic icon, I had to import the css for
