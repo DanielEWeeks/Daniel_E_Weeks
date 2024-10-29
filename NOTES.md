@@ -19,13 +19,9 @@ Log into GitHub in your web browser.
 
 Go to 
 
-<https://github.com/sbryngelson/academic-website-template>
+<https://github.com/DanielEWeeks/Daniel_E_Weeks>
 
 and click the "Use this template" button and choose the 'Create a new repository' option.
-
-If you want instead to use my site as a template, you can go to
-
-<https://github.com/DanielEWeeks/Daniel_E_Weeks>
 
 The code there generates this web site:
 
@@ -34,7 +30,7 @@ The code there generates this web site:
 
 # Step 2: Customize the information
 
-To customize it with my own information, I had to modify these files and update some image files.  Initially I changed these, but yet more modifications will be
+To customize it with my own information, I had to modify these files and update some image files.  Initially I changed these, but yet more modifications may be
 needed to fully customize it:
 
 ```	 
@@ -44,13 +40,28 @@ needed to fully customize it:
    _pages/home.md
    images/DanWeeks_WordCloud.png
    images/headshot.jpg
+   _pages/teaching.md
 ```
+
+Note that the *.yml and *.md files are text files that can be edited online in the GitHub.com website.  The image files can be also added into the appropriate folder in the online interface. 
 
 To add my cv, I made a 'cv' folder, and then copied a PDF of my CV into that folder.  I then edited the 'cv' line in _data/pi.yml as needed.
 
 In _config.yml I turned off some of the pages, like the blog, by putting a hash # sign in front of the line listing them.  I also rearranged the order of the pages.
 
 To customize the listed software, I edited _pages/software.md 
+
+**Turned off pages**
+
+Note that I edited the _config.yml to turn off these three pages:
+
+```
+# - name: talks
+# - name: research
+# - name: blogs
+```
+
+If you wish to have these pages in your web site, remove the hash # sign and then edit accordingly. 
 
 **Customizing References**
 
@@ -65,6 +76,25 @@ For example, this does not work
 but this works
 
 @article{treblebarna_brainderived_2023
+
+
+**Customizing Academic Icons**
+
+To add an ORCiD academic icon, I had to import the css for
+
+<https://jpswalsh.github.io/academicons/>  
+
+into _includes/head.html, and then adjust accordingly in 
+
+```
+_includes/sidebar.html
+_pages/about.md
+_pages/team.md
+```
+
+After these adjustments, then changing the ORCiD link only requires you adjust the 'orcid' line in _data/pi.yml:  
+
+orcid: https://orcid.org/0000-0001-9410-7228
 
   
 # Step 3: Turn on the GitHub Action
@@ -82,6 +112,8 @@ Source
 to 'GitHub Actions'  
 
 using the Deploy Jekyll site to Pages workflow. 
+
+This should automatically update the github.io website after each update is committed.  
 
 
 # Generated web site
