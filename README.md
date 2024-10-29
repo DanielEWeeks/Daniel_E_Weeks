@@ -1,5 +1,11 @@
 # A website template for academics
 
+The original template used to construct this site is
+
+<https://github.com/sbryngelson/academic-website-template>
+
+Please see the NOTES.md file for a description of modifications and customizations that were made.
+
 ## Users
 
 Some users:

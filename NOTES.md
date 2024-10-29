@@ -8,6 +8,9 @@ It uses this template code:
 
 <https://github.com/sbryngelson/academic-website-template>
 
+I started with this template code, but it has subsequently been customized and
+extended as described below.
+
 # Step 0: Create a GitHub account
 
 Create a GitHub account at <https://github.com/>.
