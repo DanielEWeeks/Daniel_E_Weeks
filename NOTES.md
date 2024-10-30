@@ -120,7 +120,9 @@ orcid: https://orcid.org/0000-0001-9410-7228
 
 I put my own favicon.ico in the root directory - this is the little icon that appears in the upper right of the web page.
 
-Pitt has University of Pittsburgh favicon.ico files, but we are only permitted to use them on web sites that end in *.pitt.edu.  
+Pitt has University of Pittsburgh favicon.ico files, but we are only permitted to use them on web sites that end in *.pitt.edu. 
+
+I think if you don't have a favicon.ico that you'd like to use, you can probably simply delete it.  
 
   
 # Step 3: Turn on the GitHub Action
