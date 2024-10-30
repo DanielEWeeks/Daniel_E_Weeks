@@ -23,7 +23,7 @@ years: [2016, 2017, 2018, 2019, 2020, 2021]
         <a href="http://pubmed.ncbi.nlm.nih.gov/?term=%28%28Weeks+DE%5BAuthor%5D%29+NOT+%28Weeks+David+E%5BAuthor%5D%29%29+NOT+%2831878736%29&amp;sort=date" target="_blank">Search PubMed</a><br />
         <a href="http://europepmc.org/authors/0000-0001-9410-7228" target="_blank">Europe PMC profile</a><br /><a href="http://scholar.google.com/citations?sortby=pubdate&amp;hl=en&amp;user=oA712DgAAAAJ" target="_blank">Google Scholar profile</a><br />
         <a href="http://www.ncbi.nlm.nih.gov/sites/myncbi/daniel.weeks.2/bibliography/47194278/public/?sort=date&amp;direction=descending" target="_blank">My Bibliography</a><br />
-        <a href="http://orcid.org/0000-0001-9410-7228" target="_blank">Orcid ID</a><br /><br />
+        <a href="http://orcid.org/0000-0001-9410-7228" target="_blank">ORCiD</a><br /><br />
 </p>
 </div>
 

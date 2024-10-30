@@ -50,6 +50,8 @@ needed to fully customize it:
    images/headshot.jpg
    _pages/teaching.md
    _pages/publications.md 
+   _data/grants.yml 
+   _data/awards.yml 
 ```
 
 Note that the *.yml and *.md files are text files that can be edited online in the GitHub.com website.  The image files can be also added into the appropriate folder in the online interface. 
