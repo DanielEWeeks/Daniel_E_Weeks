@@ -98,6 +98,14 @@ As I don't have many conference proceedings, I deleted this
 
 from _pages/publications.md 
 
+If the BibTex entry starts with the
+
+@unpublished{}
+
+tag instead of @article{}, it will be listed in the Preprints section of the Publications page.
+
+
+
 **Customizing Academic Icons**
 
 To add an ORCiD academic icon, I had to import the css for
