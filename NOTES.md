@@ -15,6 +15,12 @@ extended as described below.
 
 Create a GitHub account at <https://github.com/>.
 
+While it is not necessary to sign up for GitHub Education for Teachers, if you end up using GitHub a lot, you should consider signing up - see
+
+<https://docs.github.com/en/education>
+
+for further information.
+
 
 # Step 1: Copy the template to your own GitHub account
 
