@@ -42,7 +42,8 @@ permalink: /about/
   <h3>Grants</h3>
   <ul>
     {% for grant in site.data.grants %}
-      <li>{{ grant.name }}</li>
+      <li>{{ grant.name }} {% if grant.website %}<a href="{{ grant.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
+      </li>
     {% endfor %}
   </ul>
 </div>

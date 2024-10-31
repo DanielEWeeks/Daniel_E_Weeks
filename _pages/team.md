@@ -7,8 +7,6 @@ permalink: /team/
 
 ## Team
 
-**We are looking for new team members** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
 ## PI
 
 {% for member in site.data.pi %}
@@ -118,6 +116,4 @@ permalink: /team/
 {% endif %}
 </div>
 
-## Administrative Support
 
-<a href="exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
