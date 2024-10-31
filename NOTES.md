@@ -9,7 +9,8 @@ It uses this template code:
 <https://github.com/sbryngelson/academic-website-template>
 
 I started with this template code, but it has subsequently been customized and
-extended as described below.
+extended as described below.  Note also that I have turned off some features, so
+look at the two websites above if you want to turn them on again. 
 
 # Step 0: Create a GitHub account
 
@@ -60,6 +61,8 @@ needed to fully customize it:
    _data/awards.yml 
 ```
 
+**Important:** When editing the *.yml files, make sure the keywords start in column 3.  This software system fails with a cryptic error message if the keywords are not indented properly. 
+
 Note that the *.yml and *.md files are text files that can be edited online in the GitHub.com website.  The image files can be also added into the appropriate folder in the online interface. 
 
 To add my cv, I made a 'cv' folder, and then copied a PDF of my CV into that folder.  I then edited the 'cv' line in _data/pi.yml as needed.
@@ -84,7 +87,7 @@ If you wish to have these pages in your web site, remove the hash # sign and the
 
 Generated a BibTex-formatted set of references from my Zotero database, and pasted them into the assets/ref.bib file.
 
-If the LaTeX tag for the article contains a dash '-' in it, then the BIB and ABSTRACT pop-ups do not work. To get those to work, I had to remove the tags.
+If the LaTeX tag for the article contains a dash '-' in it, then the BIB and ABSTRACT pop-ups do not work. To get those to work, I had to remove the dashes.
 
 For example, this does not work
 
@@ -106,7 +109,7 @@ As I don't have many conference proceedings, I deleted this
 
 from _pages/publications.md 
 
-If the BibTex entry starts with the
+*Preprints:* If the BibTex entry starts with the
 
 @unpublished{}
 
