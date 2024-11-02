@@ -174,3 +174,22 @@ My generated web site is here:
 
 For the link icons, this uses Font Awesome version 4.2.0.
 
+
+# Blog posts
+
+To make a blog post, put a *.md Markdown file in the _posts folder.
+
+It has to have a header like this at the beginning:
+
+```
+---
+layout: post
+title: "Font Awesome Icon List"
+date: 2024-11-02
+categories: "Examples"
+---
+```
+
+And then the name of the *.md Markdown file has to start with the date, like this:
+
+2024-11-02-font-awesome.md

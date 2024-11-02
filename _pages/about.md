@@ -17,6 +17,7 @@ permalink: /about/
 <div class="col-sm-8 col-xs-12">
   <h3>{{ member.name }}</h3>
   <h4><i>{{ member.info }}</i></h4>
+  {% if member.university %}<a href="{{ member.university }}" target="_blank"><i class="fa fa-university fa-2x"></i></a> {% endif %}
   {% if member.website %}<a href="{{ member.website }}" target="_blank"><i class="fa fa-home fa-2x"></i></a> {% endif %}
   {% if member.email %}<a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a> {% endif %}
   {% if member.cv %} <a href="{{ site.url }}{{ site.baseurl }}/{{ member.cv }}" target="_blank"><i class="ai ai-cv-square ai-3x"></i></a> {% endif %}
