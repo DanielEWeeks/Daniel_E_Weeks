@@ -193,3 +193,20 @@ categories: "Examples"
 And then the name of the *.md Markdown file has to start with the date, like this:
 
 2024-11-02-font-awesome.md
+
+
+# About page
+
+Note that I commented out the 'Students and Mentoring' section, which is driven by the _data/people.yml file.  To turn it back on, remove the
+
+```
+{% comment %}
+```
+
+and
+
+```
+{% endcomment %}
+```
+
+lines. 

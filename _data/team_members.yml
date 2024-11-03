@@ -1,9 +1,10 @@
-- name: Example student name
-#  photo: rock.jpg
-  info: Postdoc, started Oct 2040
-  email: exampleemail@gmail.com
-  website: https://website.com
+- name: Shuwei Liu
+  photo: file-person-fill.png
+  info: Human Genetics Ph.D. student, 2020 -	
+#  email: exampleemail@gmail.com
+#  website: https://website.com
 
-- name: "This could be you !"
-#  photo: rock.jpg
-  info: See <a href="www">openings</a> for more info
+
+# - name: "This could be you !"
+#  photo: file-person-fill.png
+#  info: See <a href="www">openings</a> for more info

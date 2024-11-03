@@ -1,5 +1,90 @@
-- name: Example Alumni Name
-#  photo: rock.jpg
-  duration: In the lab 2015-18
-  info: Now at Univeristy of X
+- name: Deborah L. Brown
+  photo: file-person-fill.png
+  duration: 1994 - M.S., Human Genetics
+  info: Strategies for genomic searching using the affected pedigree member method of linkage analysis
   email: exampleemail@gmail.com
+
+- name: Sean Davis
+  photo: file-person-fill.png
+  duration: 1997 - Ph.D., Human Genetics
+  info: Nonparametric Statistics in Linkage Analysis
+
+- name: Hui-Ju Tsai
+  photo: file-person-fill.png
+  duration: 2004 - Ph.D., Human Genetics
+  info: Comparison of methods incorporating covariates into affected sib pair linkage analysis
+
+- name: Feng Dai
+  photo: file-person-fill.png
+  duration: 2004 - M.S., Biostatistics
+  info: Imprinting in variance components-based linkage analysis
+  
+- name: Amrita Ray
+  photo: file-person-fill.png
+  duration: 2007 - Ph.D., Human Genetics
+  info: Affected relative pair linkage statistics that model relationship uncertainty
+  
+- name: Feng Dai
+  photo: file-person-fill.png
+  duration: 2007 - Ph.D., Biostatistics
+  info: "Variance components models in statistical genetics: extensions and applications"
+  
+- name: Johanna Jakobsdottir
+  photo: file-person-fill.png
+  duration: 2009 - Ph.D., Biostatistics
+  info: Genetics of age-related maculopathy & score statistics for X-linked quantitative trait loci
+  
+- name: Jia Jia
+  photo: file-person-fill.png
+  duration: 2015 - Ph.D., Biostatistics
+  info: Association analysis between binary traits and common or rare genetic variants on family-based data
+  
+- name: Yingda Jiang
+  photo: file-person-fill.png
+  duration: 2015 - Ph.D., Biostatistics
+  info: Gene-based association testing of dichotomous traits using generalized functional linear mixed models for family data
+  
+- name: Ying Shan
+  photo: file-person-fill.png
+  duration: 2016 - Ph.D., Biostatistics
+  info: Statistical methods for genetic risk confidence intervals, Bayesian disease risk prediction, and estimating mutation screening saturation 
+
+- name: Yunqi Li
+  photo: file-person-fill.png
+  duration: 2018 - M.S., Human Genetics
+  info: Epigenome-wide association study of recovery outcomes of traumatic brain injury patients  
+    
+- name: Richard J. Biedrzycki
+  photo: file-person-fill.png
+  duration: 2018 - M.S., Human Genetics
+  info:  Genome-wide association studies, false positives, and how we interpret them
+  
+- name: Winston W. H. Eng
+  photo: file-person-fill.png
+  duration: 2018 - M.S., Biostatistics
+  info: Exploring the genetic characteristics underlying a multidimensional latent chemotherapy symptom burden  
+  
+- name: Annie Arockiaraj
+  photo: file-person-fill.png
+  duration: 2019 - M.S., Human Genetics
+  info:  Epigenome-wide association studies in aneurysmal subarachnoid hemorrhage patients 
+  
+- name: Chen’Ao Qian
+  photo: file-person-fill.png
+  duration: 2020 - M.S., Biostatistics
+  info: Genome-wide association studies in Samoans give insight into obesity by investigating skinfold thickness    
+
+- name: Laura Stackhouse
+  photo: file-person-fill.png
+  duration: 2022 - M.S., Human Genetics
+  info: CREBRF Missense Variant rs373863828 and Relative Grip Strength   
+  
+- name: Kaitlin Kirkpatrick Heimke
+  photo: file-person-fill.png
+  duration: 2022 - M.P.H. Public Health Genetics
+  info:  Association Between BDNF DNA Methylation and Depression and Anxiety in Postmenopausal Individuals with Breast Cancer  
+  
+- name: Amanda Koloskee
+  photo: file-person-fill.png
+  duration: 2023 - M.S. Human Genetics
+  info: Effect of Exercise on DNA Methylation Age Acceleration in Breast Cancer Patients Undergoing Aromatase Inhibitor Therapy  
