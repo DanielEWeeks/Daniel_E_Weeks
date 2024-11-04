@@ -78,7 +78,6 @@ Note that I edited the _config.yml to turn off these three pages:
 ```
 # - name: talks
 # - name: research
-# - name: blogs
 ```
 
 If you wish to have these pages in your web site, remove the hash # sign and then edit accordingly. 
