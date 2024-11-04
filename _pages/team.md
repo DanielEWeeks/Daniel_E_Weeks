@@ -46,7 +46,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-2">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+{% if member.photo %} <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/> {% endif %}
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
@@ -78,7 +78,7 @@ permalink: /team/
 {% endif %}
 </div>
 
-## Alumni
+## Alumni - Graduate Students
 
 <div class="jumbotron">
 {% assign number_printed = 0 %}
@@ -92,7 +92,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-2">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/>
+{% if member.photo %}<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="100%" style="max-width:250px"/> {% endif %}
 </div>
 <div class="col-sm-4 col-xs-12">
   <h4>{{ member.name }}</h4>
