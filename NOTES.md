@@ -210,9 +210,9 @@ and
 
 lines. 
 
-# Navbar background color
+# Navbar background color and Name color
 
-To set the navigation bar background color to blue from black, I changed this line of _sass/bootstrap.scss
+To set the navigation bar background color to blue from black, I changed this line of _sass/bootstrap.scss (where '-' marks the original line, and '+' marks the updated line):
  
 ```
  .bg-dark {
@@ -221,3 +221,16 @@ To set the navigation bar background color to blue from black, I changed this li
  }
 ```
 
+To change the color of the name in the upper right corner in the desktop view, I made these changes:
+
+```
+ .navbar-dark .navbar-brand {
+-  color: #fff;
++  color: #FFB81C;
+ }
+ 
+ .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
+-  color: #fff;
++  color: #FFB81C;
+ }
+```
