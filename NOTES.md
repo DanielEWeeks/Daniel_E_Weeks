@@ -123,7 +123,7 @@ Turn on the display of your github.io GitHub Pages web site link by clicking the
 
 ![](images_notes/DisplayGitHubPagesWebLink.png)
 
-After the link appears and the GitHub Action has completed running, follow it to see your new website!
+After the link appears in the About box on the right and the GitHub Action has completed running, follow it to see your new website!
 
 **Important:** When editing the *.yml files, make sure the keywords start in column 3.  This software system fails with a cryptic error message if the keywords are not indented properly. 
 
