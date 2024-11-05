@@ -77,11 +77,10 @@ Then configure the Jekyll action:
 
 ![Illustrating the configure button for the Jekyll action](images_notes/JekyllGitHubAction.png )
 
-and click the green 'Commit changes' button:
+and click the white 'Cancel changes' instead of the green 'Commit changes' button (because the jekyll.yml file already exists):
 
 ![Illustrating the Commit changes button](images_notes/JekyllCommitChanges.png)
 
-It will tell you that a jekyll.yml already exists, so click "Cancel changes".
 
 
 
