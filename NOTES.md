@@ -63,6 +63,12 @@ needed to fully customize it:
    _data/awards.yml 
 ```
 
+**Example**
+
+To edit the _data/pi.yml in the online GitHub.com interface, click on it, and then click on the pencil icon on the upper right to edit this file:
+
+![Illustrating the pencil icon for editing this file](images_notes/EditThisFile.png)
+
 **Important:** When editing the *.yml files, make sure the keywords start in column 3.  This software system fails with a cryptic error message if the keywords are not indented properly. 
 
 Note that the *.yml and *.md files are text files that can be edited online in the GitHub.com website.  The image files can be also added into the appropriate folder in the online interface. 
