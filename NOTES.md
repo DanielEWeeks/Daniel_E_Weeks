@@ -209,3 +209,15 @@ and
 ```
 
 lines. 
+
+# Navbar background color
+
+To set the navigation bar background color to blue from black, I changed this line of _sass/bootstrap.scss
+ 
+```
+ .bg-dark {
+-  background-color: #303030 !important;
++  background-color: #003594 !important;
+ }
+```
+
