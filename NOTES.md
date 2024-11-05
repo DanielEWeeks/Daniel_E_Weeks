@@ -12,6 +12,15 @@ I started with this template code, but it has subsequently been customized and
 extended as described below.  Note also that I have turned off some features, so
 look at the two websites above if you want to turn them on again. 
 
+My customized template is here - I recommend you start with this template:
+
+<https://github.com/DanielEWeeks/Daniel_E_Weeks>
+
+The code there generates this web site:
+
+<https://danieleweeks.github.io/Daniel_E_Weeks/>
+
+
 # Step 0: Create a GitHub account
 
 Create a GitHub account at <https://github.com/>.
@@ -35,15 +44,16 @@ and click the "Use this template" button and choose the 'Create a new repository
 
 ![View of the repository with the 'Use this template' button circled in red](images_notes/UseThisTemplate.png) 
 
-The code there generates this web site:
+Then fill in the repository name with your name (with underscores instead of spaces), and click the green "Create repository" button at the bottom of the page.  Be sure to make this repository public or the GitHub Pages hosting will not work.
 
-<https://danieleweeks.github.io/Daniel_E_Weeks/>
+![New repository form](images_notes/NewRepositoryForm.png)
+
 
 # Step 2: Turn on the GitHub Action
 
 To get it to generate a GitHub Pages website, I then had to follow the instructions here:
 
-<https://jekyllrb.com/docs/continuous-integration/github-actions/>
+<https://jekyllrb.com/docs/continuous-integration/github-actions/#setting-up-the-action>
 
 to change the 
 
@@ -56,6 +66,23 @@ to 'GitHub Actions'
 using the Deploy Jekyll site to Pages workflow. 
 
 This should automatically update the github.io website after each update is committed (see below for how to make and commit changes).  
+
+Here are some of the steps illustrated:
+
+Go to Settings => Pages, and then set the GitHub Actions
+
+![Illustrating where to find the GitHub Actions option](images_notes/PagesGitHubActions.png) 
+
+Then configure the Jekyll action:
+
+![Illustrating the configure button for the Jekyll action](images_notes/JekyllGitHubAction.png )
+
+and click the green 'Commit changes' button:
+
+![Illustrating the Commit changes button](images_notes/JekyllCommitChanges.png)
+
+It will tell you that a jekyll.yml already exists, so click "Cancel changes".
+
 
 
 # Step 3: Customize the information
@@ -92,6 +119,12 @@ After making the desired changes, then save them by clicking the green 'Commit c
 ![Illustrating the pencil icon for editing this file](images_notes/CommitChanges.png)
 
 If the GitHub Action 'Deploy Jekyll site to Pages workflow' is properly turned on and functioning, after every commit, your github.io web page should automatically be updated with your latest committed changes.  Note that these updates can sometimes take a little while, as your whole website is being re-generated.
+
+Turn on the display of your github.io GitHub Pages web site link by clicking the setting gear in the 'About' section and then clicking the option 
+
+![](images_notes/DisplayGitHubPagesWebLink.png)
+
+After the link appears and the GitHub Action has completed running, follow it to see your new website!
 
 **Important:** When editing the *.yml files, make sure the keywords start in column 3.  This software system fails with a cryptic error message if the keywords are not indented properly. 
 
