@@ -39,8 +39,26 @@ The code there generates this web site:
 
 <https://danieleweeks.github.io/Daniel_E_Weeks/>
 
+# Step 2: Turn on the GitHub Action
 
-# Step 2: Customize the information
+To get it to generate a GitHub Pages website, I then had to follow the instructions here:
+
+<https://jekyllrb.com/docs/continuous-integration/github-actions/>
+
+to change the 
+
+Build and deployment
+
+Source
+
+to 'GitHub Actions'  
+
+using the Deploy Jekyll site to Pages workflow. 
+
+This should automatically update the github.io website after each update is committed (see below for how to make and commit changes).  
+
+
+# Step 3: Customize the information
 
 The majority of the customization can be done by editing *.yml and *.md text files, and by copying desired image files into the 'images' folder, copying an updated CV into the 'cv' folder, etc.   
 
@@ -68,6 +86,12 @@ needed to fully customize it:
 To edit the _data/pi.yml in the online GitHub.com interface, click on it, and then click on the pencil icon on the upper right to edit this file:
 
 ![Illustrating the pencil icon for editing this file](images_notes/EditThisFile.png)
+
+After making the desired changes, then save them by clicking the green 'Commit changes...' button:
+
+![Illustrating the pencil icon for editing this file](images_notes/CommitChanges.png)
+
+If the GitHub Action 'Deploy Jekyll site to Pages workflow' is properly turned on and functioning, after every commit, your github.io web page should automatically be updated with your latest committed changes.  Note that these updates can sometimes take a little while, as your whole website is being re-generated.
 
 **Important:** When editing the *.yml files, make sure the keywords start in column 3.  This software system fails with a cryptic error message if the keywords are not indented properly. 
 
@@ -151,23 +175,6 @@ Pitt has University of Pittsburgh favicon.ico files, but we are only permitted t
 I think if you don't have a favicon.ico that you'd like to use, you can probably simply delete it.  
 
   
-# Step 3: Turn on the GitHub Action
-
-To get it to generate a GitHub Pages website, I then had to follow the instructions here:
-
-<https://jekyllrb.com/docs/continuous-integration/github-actions/>
-
-to change the 
-
-Build and deployment
-
-Source
-
-to 'GitHub Actions'  
-
-using the Deploy Jekyll site to Pages workflow. 
-
-This should automatically update the github.io website after each update is committed.  
 
 
 # Generated web site
