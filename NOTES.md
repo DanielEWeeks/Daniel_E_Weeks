@@ -33,6 +33,8 @@ Go to
 
 and click the "Use this template" button and choose the 'Create a new repository' option.
 
+![View of the repository with the 'Use this template' button circled in red](images_notes/UseThisTemplate.png) 
+
 The code there generates this web site:
 
 <https://danieleweeks.github.io/Daniel_E_Weeks/>
