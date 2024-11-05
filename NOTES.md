@@ -119,7 +119,7 @@ After making the desired changes, then save them by clicking the green 'Commit c
 
 If the GitHub Action 'Deploy Jekyll site to Pages workflow' is properly turned on and functioning, after every commit, your github.io web page should automatically be updated with your latest committed changes.  Note that these updates can sometimes take a little while, as your whole website is being re-generated.
 
-Turn on the display of your github.io GitHub Pages web site link by clicking the setting gear in the 'About' section and then clicking the option 
+Turn on the display of your github.io GitHub Pages web site link by clicking the setting gear in the 'About' section and then clicking the option "Use your GitHub Pages website", and then click the green "Save changes":
 
 ![](images_notes/DisplayGitHubPagesWebLink.png)
 
