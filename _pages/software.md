@@ -34,6 +34,22 @@ iframe {
 }
 </style>
 
+## Repositories
+
+{% for member in site.data.pi %}
+
+<div class="jumbotron">
+<div class="row">
+<div class="col-sm-9 col-xs-12">
+
+{% if member.github %} <a href="{{ member.github }}" target="_blank"><i class="fa fa-github-square fa-2x"></i></a> {% endif %}   {% if member.bitbucket %} <a href="{{ member.bitbucket }}" target="_blank"><i class="fa fa-bitbucket-square fa-2x"></i></a> {% endif %}   
+
+</div>
+</div>
+</div>
+
+{% endfor %}
+
 ## Software
 
 <div class="jumbotron">
