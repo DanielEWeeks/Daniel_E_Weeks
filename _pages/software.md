@@ -88,7 +88,30 @@ Mega2
 <b>Authors:</b>
 <i>Robert V. Baron, Justin R. Stickel, and Daniel E. Weeks</i>
 
-Since Mega2 produces a ‘SQLite’ database, it is now easy to load the data that Mega2 has processed into R using Mega2R, which loads the input ‘SQLite’ database and manipulates data frames containing genotype, phenotype, and family information. 
+Since Mega2 produces a ‘SQLite’ database, it is now easy to load the data that Mega2 has processed into R using Mega2R, which loads the input ‘SQLite’ database and manipulates data frames containing genotype, phenotype, and family information.
+<br>
+<br>
+
+<h4><b>PedCheck</b></h4>
+<a href="https://github.com/DanielEWeeks/pedcheck" target="_blank"><button class="btn btn-success btn-sm">GitHub</button></a>
+<a href="https://doi.org/10.1086/301904" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+
+<b>Authors:</b>
+<i>Jeffrey R. O'Connell, Daniel E. Weeks</i>
+
+PedCheck is a program for identification of genotype incompatibilities in linkage analysis, and can assist you in identifying all Mendelian inconsistencies in your pedigree data.
+<br>
+<br>
+
+<h4><b>VITESSE</b></h4>
+<a href="https://github.com/DanielEWeeks/vitesse" target="_blank"><button class="btn btn-success btn-sm">GitHub</button></a>
+<a href="https://doi.org/10.1038/ng1295-402" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
+
+<b>Authors:</b>
+<i>Jeffrey R. O'Connell, Daniel E. Weeks</i>
+
+VITESSE implments a fast linkage analysis algorithm for rapid exact multilocus linkage analysis via genotype set–recoding and fuzzy inheritance.
+<br>
 </div>
 </div>
 </div>
