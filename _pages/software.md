@@ -93,7 +93,7 @@ Since Mega2 produces a ‘SQLite’ database, it is now easy to load the data th
 <br>
 
 <h4><b>PedCheck</b></h4>
-<a href="https://github.com/DanielEWeeks/pedcheck" target="_blank"><button class="btn btn-success btn-sm">GitHub</button></a>
+<a href="https://github.com/DanielEWeeks/pedcheck" target="_blank"><button class="btn btn-info btn-sm">GitHub</button></a>
 <a href="https://doi.org/10.1086/301904" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
@@ -104,7 +104,7 @@ PedCheck is a program for identification of genotype incompatibilities in linkag
 <br>
 
 <h4><b>VITESSE</b></h4>
-<a href="https://github.com/DanielEWeeks/vitesse" target="_blank"><button class="btn btn-success btn-sm">GitHub</button></a>
+<a href="https://github.com/DanielEWeeks/vitesse" target="_blank"><button class="btn btn-info btn-sm">GitHub</button></a>
 <a href="https://doi.org/10.1038/ng1295-402" target="_blank"><button class="btn btn-danger btn-sm">PAPER</button></a> 
 
 <b>Authors:</b>
