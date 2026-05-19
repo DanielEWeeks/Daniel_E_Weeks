@@ -108,14 +108,15 @@
   website: https://www.theleslielab.org/people
   linkedin: https://www.linkedin.com/in/amanda-koloskee-142444180/  
 
+- name: Shuwei Liu
+# photo: file-person-fill.png
+  duration: 2025 - Ph.D. Human Genetics
+  info: "Deciphering Cognitive Function through DNA Methylation: Insights from the Exercise Program in Cancer and Cognition Study"
+  linkedin: https://www.linkedin.com/in/shuweiliu/
+
 - name: Ishta Madan
 # photo: file-person-fill.png
   duration: 2026 - M.S. Biostatistics and Health Data Science
   info: Acute and Longitudinal Overview of Traumatic Brain Injury Severity and Epigenetic Age Acceleration in Children
   linkedin: https://www.linkedin.com/in/ishta-madan-050962196/
 
-- name: Shuwei Liu
-# photo: file-person-fill.png
-  duration: 2025 - Ph.D. Human Genetics
-  info: "Deciphering Cognitive Function through DNA Methylation: Insights from the Exercise Program in Cancer and Cognition Study"
-  linkedin: https://www.linkedin.com/in/shuweiliu/
