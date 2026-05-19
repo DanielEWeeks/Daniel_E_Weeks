@@ -7,6 +7,8 @@ permalink: /teaching/
 
 ## Teaching
 
+Note that I am no longer teaching during my Transition to Retirement phase.  I used to teach in these two courses:
+
 * HUGEN 2071 Genomic Data Processing and Structures <a href="https://www.publichealth.pitt.edu/sites/default/files/assets/Hugen/syllabi/HUGEN_2071_Fall2023_Syllabus_17Aug2023.pdf" target="_blank"><button class="btn btn-info btn-sm">Syllabus</button></a>
 
 
