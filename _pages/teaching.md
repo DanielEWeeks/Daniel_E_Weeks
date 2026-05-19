@@ -15,4 +15,4 @@ permalink: /teaching/
 
 ### Students' theses and dissertations
 
-<a href="http://d-scholarship.pitt.edu/cgi/search/archive/advanced?_action_search=1&dataset=archive&exp=0%7C0%7Cdate%2Fcreators_name%2Ftitle%7Carchive%7C-%7Ccontributors_name%3Acontributors_name%3AALL%3AEQ%3AWeeks%2C+Daniel%7Cetdcommittee_name%3Aetdcommittee_name%3AALL%3AEQ%3AWeeks%2C+Daniel%7C-%7Ceprint_status%3Aeprint_status%3AANY%3AEQ%3Aarchive&order=date%2Fcreators_name%2Ftitle" target="_blank">Click here to search</a>
+<a href="https://d-scholarship.pitt.edu/catalog?locale=en&per_page=100&q=%22Daniel+E.+Weeks%22+OR+%22Daniel+E+Weeks%22&search_field=all_fields&sort=date_ssi+desc" target="_blank">Click here to search</a>
